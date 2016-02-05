@@ -15,7 +15,7 @@ var config = {
   module: {
     loaders: [{
         test: /\.js$/,
-        loaders: ['react-hot', 'babel'],
+        loaders: ['babel'],
         include: path.join(__dirname, 'app/scripts'),
         exclude: [nodeModulesPath]
     },
