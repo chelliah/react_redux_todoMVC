@@ -10,7 +10,8 @@ var config = {
   entry: mainPath,
   output: {
     path: buildPath,
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: '/public/'
   },
   module: {
     loaders: [{
