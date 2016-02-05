@@ -1,0 +1,33 @@
+.input-container{
+  .input-field{
+    position: relative;
+    height: 30px;
+    padding: 1px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 100;
+    width: 400px;
+    background-color: $white;
+    outline: none;
+  }
+  .input-button{
+    float: right;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 30px;
+    background-color: $white;
+    color: $dark-blue;
+    border: 1px $dark-blue solid;
+    @include transition(color .3s, background-color .3s);
+
+    &:hover{
+      background-color: $dark-blue;
+      color: $white;
+    }
+  }
+
+  //padding-bottom: 15px;
+  border-bottom: 1px solid $dark-blue;
+}

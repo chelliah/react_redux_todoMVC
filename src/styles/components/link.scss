@@ -1,0 +1,10 @@
+.footer-link{
+  text-decoration: none;
+  color: $dark-blue;
+  float: right;
+  padding: 0 15px;
+
+  &.current-link {
+    border-bottom: 1px solid $dark-blue;
+  }
+}

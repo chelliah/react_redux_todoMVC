@@ -1,0 +1,39 @@
+.todo-item{
+  cursor: pointer;
+  padding: 10px 15px 5px 15px;
+  //height: 25px;
+  color: $dark-grey;
+  border-bottom: 1px solid $light-grey;
+  font-weight: 100;
+  font-size: 16px;
+
+
+
+  &.complete{
+    &:after {
+      content: '';
+      position: absolute;
+      display: block;
+      //width: 90%;
+      height: 1px;
+      margin-top: -0.55em;
+      background: $dark-blue;
+      transform-origin: bottom left;
+      @include animation(0,1s, ease, strikethrough);
+    }
+  }
+
+  &:last-child{
+    border-bottom: none;
+  }
+
+}
+
+@include keyframes(strikethrough){
+   0%{
+     width: 0;
+   },
+ 100%{
+   width: 90%;
+ }
+}

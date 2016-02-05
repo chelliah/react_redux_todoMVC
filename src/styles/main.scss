@@ -1,0 +1,16 @@
+@import 'utilities/variables';
+
+@import 'mixins/transition';
+@import 'mixins/animation';
+
+@import 'components/app';
+@import 'components/addTodo';
+@import 'components/todo';
+@import 'components/footer';
+@import 'components/link';
+
+@import 'components/todoList';
+
+html,body{
+  margin: 0;
+}
