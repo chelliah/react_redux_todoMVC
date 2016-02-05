@@ -11,7 +11,10 @@
   "author": "Aron Thomas",
   "license": "ISC",
   "dependencies": {
+    "chai": "^3.5.0",
     "classnames": "^2.2.3",
+    "express": "^4.13.4",
+    "http-proxy": "^1.13.1",
     "path": "^0.12.7",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
